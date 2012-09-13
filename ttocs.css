@@ -88,3 +88,35 @@ hr {
     margin-bottom: 1.5em;
 }
 
+/* the following are for the grid spruce up */
+/* this could break on some old browsers? */
+
+#proceedings { /* C & P */
+    position:relative;	/* This fixes the IE7 overflow hidden bug */
+    clear:both;
+    overflow:hidden;
+}
+
+.grid-row { /* C & P */
+    position:relative;	/* This fixes the IE7 overflow hidden bug */
+    clear:both;
+    /*float:left;*/
+    width:100%;
+    overflow:hidden;
+}
+
+.grid-session {
+    float:left;
+    margin:0px;
+    width: 33.333%;
+}
+
+.grid-session.wide {
+    width: 100%;
+}
+
+#proceedings h3 {
+    height: 38px;
+}
+
+
