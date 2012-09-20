@@ -91,13 +91,13 @@ hr {
 /* the following are for the grid spruce up */
 /* this could break on some old browsers? */
 
-#proceedings { /* C & P */
+#proceedings {
     position:relative;	/* This fixes the IE7 overflow hidden bug */
     clear:both;
     overflow:hidden;
 }
 
-.grid-row { /* C & P */
+.grid-row {
     position:relative;	/* This fixes the IE7 overflow hidden bug */
     clear:both;
     /*float:left;*/
@@ -109,6 +109,13 @@ hr {
     float:left;
     margin:0px;
     width: 33.333%;
+}
+
+.grid-item {
+    margin:1px;
+    border:2px solid black;
+    padding:5px;
+    background-color:white;
 }
 
 .grid-session.wide {
