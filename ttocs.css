@@ -144,11 +144,12 @@ hr {
 .paper-body {
     padding:6px;
     color:black;
+    font-weight:bold;
 }
 .paper-authors {
     background-color:#ddd;
     color:grey;
-    padding: 3px;
+    padding: 4px;
 }
 .session-name {
     text-align:center;
@@ -160,7 +161,7 @@ hr {
     margin:0px;
     background-color:black;
     color:white;
-    border:4px solid white;
+    border:3px solid white;
 }
 
 /*
