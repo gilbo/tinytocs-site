@@ -127,24 +127,25 @@ hr {
 .grid-item {
     margin:2px;
     margin-top:4px;
-    border:4px solid black;
+    border:1px solid black;
     /*padding:5px;*/
     background-color:white;
 }
 
 .paper-title {
     background-color:black;
-    padding:2px;
+    padding:4px;
     padding-bottom:4px;
     text-align:center;
 }
 .paper-title a {
     color:white;
+    text-decoration:none;
 }
 .paper-body {
     padding:6px;
     color:black;
-    font-weight:bold;
+    /*font-weight:bold;*/
 }
 .paper-authors {
     background-color:#ddd;
@@ -155,30 +156,24 @@ hr {
     text-align:center;
     vertical-align:center;
     margin:2px;
-    border:4px solid black;
+    border:2px solid black;
 }
 .session-name h3 {
     margin:0px;
     background-color:black;
     color:white;
-    border:3px solid white;
+    border:2px solid white;
 }
 
-/*
-.session-name
-.paper-title
-.paper-body
-.paper-authors
-*/
 
 .grid-session.wide {
     width: 100%;
 }
 
-body {
+/*body {
     background-image:url('dither_tile.png');
     background-attachment:fixed;
-}
+}*/
 
 /*#proceedings h3 {
     margin: 2px;
